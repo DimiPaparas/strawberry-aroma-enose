@@ -8,10 +8,10 @@ Post-harvest losses account for an estimated 14\% of global food production, wit
 
 The repository is organised as two trials:
 
-| Trial                                               | Task                                                        | Data                                    |
-|-----------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
-| [`trial_01`](#trial-01--voc-identification)         | Identify one of 10 VOCs, estimate concentration             | 10 analytes, ~4,200 sweeps each         |
-| [`trial_02`](#trial-02--food-freshness-estimation)  | Predict days-to-best-before, classify as fresh/not-fresh    | Real food headspace, 5 acquisition days |
+| Trial       | Task                                                        | Data                                    |
+|-------------|-------------------------------------------------------------|-----------------------------------------|
+| `trial_01`  | Identify one of 10 VOCs, estimate concentration             | 10 analytes, ~4,200 sweeps each         |
+| `trial_02`  | Predict days-to-best-before, classify as fresh/not-fresh    | Real food headspace, 5 acquisition days |
 
 `trial_01` establishes that the two sensors produce separable, learnable
 signatures on discrete analytes; `trial_02` applies the device to real food headspace.
